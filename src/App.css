@@ -1,0 +1,233 @@
+/* @import url(''); */
+@import 'https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&cache=clear';
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Work Sans';
+}
+.App{
+width: 100%;
+height:100vh;
+background-color:#F4F8FA;
+/* border: 2px solid red; */
+}
+.mah--header{
+  width: 100%;
+  height: 8vh;
+  /* border: 2px solid blue; */
+  background-color: #ffff;
+  padding: 6px;
+}
+.mah--logo{
+  margin-left: 3.87vw;
+  width:16vw;
+  height: 7vh;
+  /* margin-top: 6px; */
+}
+.mah--section{
+  background-color:#F4F8FA;
+  width: 100%;
+  height: auto;
+  /* border: 2px solid red; */
+  overflow: auto;
+}
+.mah--Title{
+  width: 100%;
+  padding-top: 4.7vh;
+  
+}
+.mah--Title>p{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 1.78rem;
+text-align: center;
+color: #1B31A8;
+
+}
+.mah--title-bolder{
+ font-weight: bolder;
+}
+.mah--grid-container{
+  width:100%;
+  height: auto;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  padding: 5vh 10vw;
+
+}
+.mah--colum{
+  width: 100%;
+  /* border: 1px solid orange; */
+  height: auto;
+  overflow: hidden;
+
+}
+.mah--input-details{
+  width: 28vw;
+  height: 60vh;
+  /* border: 2px solid yellow; */
+  padding: 10% 0;
+  margin: 0 5vw;
+}
+.mah--child-colum{
+  width: 100%;
+  height:8vh;
+  /* border: 2px solid red; */
+  
+}
+.mah--input-frame{
+  height: 100%;
+  width: 100%;
+}
+.mah--origen{
+  height: 25px;
+  width: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: .87vw;
+  line-height: 22px;
+  color: #000000;
+}
+.mah--image-logo{
+  width: 1.27vw;
+  height: 100%;
+}
+.mah--frame-inputText{
+  width: 55%;
+  height: 73%;
+  /* border: 2px solid green; */
+  background-color: #ffffff;
+  display: flex;
+  align-items:center;
+  justify-content: left;
+  padding: 0 2.1%;
+}
+.mah--input-box{
+  width: 100%;
+  height: 100%;
+  margin-left: 3.1%;
+  outline: none;
+  border: none;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight:500;
+font-size: 1.5vw;
+line-height: 1.78rem;
+color: #4D6475;
+
+}
+.mah--Calculate{
+  width: 28%;
+  height: 85%;
+  border-radius: 200px;
+  background-color: #1B31A8;
+  margin-top: 3.2%;
+  /* margin-left: calc(76% - 75px/2 + 1px);  */
+  float: right;
+  font-style: normal;
+font-weight: 600;
+font-size: .8vw;
+outline: none;
+border: none;
+line-height: 1.78rem;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+
+.calculate-distande{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3%;
+  background-color: #ffffff;
+  margin-top: 8vh;
+
+}
+.simple-text{
+  margin-top: 0;
+  justify-content: left;
+  /* background-color: none; */
+  background: #F4F8FA;
+  font-style: normal;
+font-weight: 400;
+font-size: .7vw;
+line-height: .87em;
+/* word-spacing:10px; */
+color: #1E2A32;
+
+}
+.mah--super-cahild{
+  width: auto;
+  height: auto;
+  font-style: normal;
+font-weight: 400;
+font-size: 1.3vw;
+line-height: 1.87rem;
+}
+.mah--super-cahild.second{
+  font-style: normal;
+  font-family: 'Rubik';
+font-weight: 500;
+font-size: 2vw;
+line-height: 1.87rem;
+color: #0079FF;
+}
+@media (max-width:900px) {
+
+  .App{
+    height:auto;
+    }
+  .mah--header{
+    height: 8vh;
+    height:100%;
+    
+  }
+  .mah--grid-container{
+    height: auto;
+    /* border: 2px solid green; */
+    flex-wrap: wrap;
+    padding:5%;
+    overflow: visible;
+  
+  }
+  .mah--input-details{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid yellow; */
+    padding:0;
+    margin: 0 0vw;
+  }
+  .mah--super-cahild.second{
+    font-size: 5vw;
+  }
+  .mah--super-cahild{
+  font-size: 4.3vw;
+  }
+  .simple-text{
+    justify-content: center;
+    font-size: 2vw;
+  }
+  .mah--Calculate{
+    font-size: 2.8vw;
+    /* margin-left: calc(80% - 75px/2 + 1px);  */
+    
+  }
+  .mah--input-box{
+  font-size: 4vw;
+  }
+  .mah--origen{
+    font-size: 2.87vw;
+    margin: 5px;
+  }
+  .mah--image-logo{
+    width: 3.27vw;
+  }
+}
